@@ -65,8 +65,8 @@
 	<!--
 	   The "utils" non-aspect
        -->
-    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Somente administradorees do site podem assumir login como outro usuário</message>
-    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Somente usuários autenticados que são administradores podem assumir login como outro usuário</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAdmins">Somente administradores do site podem fazer login como outro usuário</message>
+    <message key="xmlui.utils.AuthenticationUtil.onlyAuthenticatedAdmins">Somente usuários autenticados que são administradores podem fazer login como outro usuário</message>
     <message key="xmlui.utils.AuthenticationUtil.notAnotherAdmin">Você não possui direitos para logar-se como administrador</message>
 
 
@@ -1715,23 +1715,23 @@
 	<message key="xmlui.administrative.collection.EditCollectionHarvestingForm.submit_reimport_collection">Redefinir e reimportar a coleção</message>
 
 	<message key="xmlui.administrative.ControlPanel.option_harvest">Harvesting</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Harvest Scheduler Controls</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Estado</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_scheduler_head">Controle da Agenda de Harvest</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_status">Status</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_actions">Ações</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Começo do Harvester</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_submit_start">Iniciar Harvester</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_reset">Redefinir o estado do Harvest</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_resume">Resumo</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_pause">Pausa</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_submit_stop">Parada</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_collections">Configurações da coleção para o harvesting</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_active">Ativar harvests</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_queued">Queued harvests</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_collections">Coleções configuradas para harvesting</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_active">Harvests ativos</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_queued">Harvests na fila</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_errors">Erros do OAI</message>
 	<message key="xmlui.administrative.ControlPanel.harvest_label_internal_errors">Erros internos</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_head_generator_settings">Generator Settings</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_url">OAI-PMH URL</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_source">ORE source</message>
-	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">Harvester Settings</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_generator_settings">Configurações do Generator</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_url">URL OAI-PMH</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_label_oai_source">Fonte ORE</message>
+	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">Configurações de Harvester</message>
 
 	<!-- General tags for community management -->
 	<message key="xmlui.administrative.community.general.community_trail">Comunidade</message>
@@ -1812,13 +1812,13 @@
 	<message key="xmlui.administrative.ControlPanel.minutes">{0} m</message>
 	<message key="xmlui.administrative.ControlPanel.seconds">{0} s</message>
 	<message key="xmlui.administrative.ControlPanel.java_head">Java e operação do sistema</message>
-	<message key="xmlui.administrative.ControlPanel.java_version">Java Runtime Environment Version</message>
+	<message key="xmlui.administrative.ControlPanel.java_version">Versão do Java Runtime Environment</message>
 	<message key="xmlui.administrative.ControlPanel.java_vendor">Java Runtime Environment Vendor</message>
-	<message key="xmlui.administrative.ControlPanel.os_name">Arquitetura do sistema operacional</message>
+	<message key="xmlui.administrative.ControlPanel.os_name">Nome do sistema operacional</message>
 	<message key="xmlui.administrative.ControlPanel.os_arch">Arquitetura do sistema operacional</message>
-	<message key="xmlui.administrative.ControlPanel.os_version">Arquitetura do sistema operacional</message>
-	<message key="xmlui.administrative.ControlPanel.runtime_head">Runtime estatísitcas</message>
-	<message key="xmlui.administrative.ControlPanel.runtime_processors">Avaliação do processo</message>
+	<message key="xmlui.administrative.ControlPanel.os_version">Versão do sistema operacional</message>
+	<message key="xmlui.administrative.ControlPanel.runtime_head">Estatísticas em tempo de execução</message>
+	<message key="xmlui.administrative.ControlPanel.runtime_processors">Processadores disponíveis</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_max">Memória máxima</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_total">Memória alocada</message>
 	<message key="xmlui.administrative.ControlPanel.runtime_used">Memória usada</message>
@@ -1835,22 +1835,22 @@
         <message key="xmlui.administrative.ControlPanel.dspace_version">Versão do DSpace</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_dir">Instalação do diretório DSpace</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_url">Base DSpace URL</message>
-	<message key="xmlui.administrative.ControlPanel.dspace_hostname">Nome hospedeiro DSpace</message>
+	<message key="xmlui.administrative.ControlPanel.dspace_hostname">Nome do host DSpace</message>
 	<message key="xmlui.administrative.ControlPanel.dspace_name">Nome do site</message>
 	<message key="xmlui.administrative.ControlPanel.db_name"> Nome da base de dados</message>
 	<message key="xmlui.administrative.ControlPanel.db_url">URL da base de dados</message>
-	<message key="xmlui.administrative.ControlPanel.db_driver">JDBC Driver</message>
-	<message key="xmlui.administrative.ControlPanel.db_maxconnections">Número máximo de DB Connections in Pool</message>
+	<message key="xmlui.administrative.ControlPanel.db_driver">Driver JDBC</message>
+	<message key="xmlui.administrative.ControlPanel.db_maxconnections">Número máximo de conexões no Pool</message>
 	<message key="xmlui.administrative.ControlPanel.db_maxwait">Tempo máximo de espera</message>
-	<message key="xmlui.administrative.ControlPanel.db_maxidle">Máximo de conecções ociosas</message>
-	<message key="xmlui.administrative.ControlPanel.mail_server">SMTP Servidor de correio</message>
-	<message key="xmlui.administrative.ControlPanel.mail_from_address">para o endereço de e-mail</message>
+	<message key="xmlui.administrative.ControlPanel.db_maxidle">Máximo de conexões ociosas</message>
+	<message key="xmlui.administrative.ControlPanel.mail_server">Servidor de e-mail SMTP</message>
+	<message key="xmlui.administrative.ControlPanel.mail_from_address">Endereço de e-mail FROM</message>
 	<message key="xmlui.administrative.ControlPanel.mail_feedback_recipient">Comentários do destinatário</message>
 	<message key="xmlui.administrative.ControlPanel.mail_admin">Administração geral da página e-mail</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_head">Sistema de alerta</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Aviso para o sistema de balanceamento de capacidade</strong>: Sistema de alerta são efetivos para o nóque é ativado. Você precisa garantir que cada nóno conjunto recebe o comando de alerta para ativação.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_warning"><strong>Aviso para o sistema de balanceamento de carga</strong>: Sistema de alerta é efetivo para o nó que é ativado. Você precisa garantir que cada nó no conjunto receba o comando de alerta para ativação.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_message_label">Mensagem de alerta</message>
-	<message key="xmlui.administrative.ControlPanel.alerts_message_default">O sistema irá para a manutenção regular. Por favor, salve o seu trabalho e desconecte sua conta.</message>
+	<message key="xmlui.administrative.ControlPanel.alerts_message_default">O sistema entratá em manutenção. Por favor, salve o seu trabalho e desconecte sua conta.</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_label">Contagem regressiva</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_none">Sem contagem regressiva</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_countdown_5">5 minutos</message>
@@ -1866,17 +1866,17 @@
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_activate">Ativar</message>
 	<message key="xmlui.administrative.ControlPanel.alerts_submit_deactivate">Desativar</message>
 	<message key="xmlui.administrative.ControlPanel.activity_head">Atividade atual ({0} máximo de páginas)</message>
-	<message key="xmlui.administrative.ControlPanel.stop_anonymous">PARAR de registrar a atividade anônima.</message>
-	<message key="xmlui.administrative.ControlPanel.start_anonymous">COMEÇAR a registrar a atividade anônima.</message>
-	<message key="xmlui.administrative.ControlPanel.stop_bot">Interrompa a atividade de bot gravação.</message>
-	<message key="xmlui.administrative.ControlPanel.start_bot">Comece a atividade de bot gravação.</message>
-	<message key="xmlui.administrative.ControlPanel.activity_sort_time">Tempo marcado</message>
+	<message key="xmlui.administrative.ControlPanel.stop_anonymous">PARAR a gravação de estatísticaônima.</message>
+	<message key="xmlui.administrative.ControlPanel.start_anonymous">INICIAR a gravação de de estatísticaônima.</message>
+	<message key="xmlui.administrative.ControlPanel.stop_bot">PARAR a gravação da atividade de bot.</message>
+	<message key="xmlui.administrative.ControlPanel.start_bot">INICIAR a gravação da atividade de bot.</message>
+	<message key="xmlui.administrative.ControlPanel.activity_sort_time">Tempo</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_user">Usuário</message>
-	<message key="xmlui.administrative.ControlPanel.activity_sort_ip">Endereço de IP</message>
+	<message key="xmlui.administrative.ControlPanel.activity_sort_ip">Endereço IP</message>
 	<message key="xmlui.administrative.ControlPanel.activity_sort_url">URL da página</message>
-	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">Usiário-agente</message>
+	<message key="xmlui.administrative.ControlPanel.activity_sort_Agent">User-Agent</message>
 	<message key="xmlui.administrative.ControlPanel.activity_anonymous">Anônimo {0}</message>
-	<message key="xmlui.administrative.ControlPanel.activity_none">As páginas de visualização não foram registradas.</message>
+	<message key="xmlui.administrative.ControlPanel.activity_none">As visualizações de página foram registradas.</message>
 
 	<message key="xmlui.administrative.ControlPanel.select_panel">Use as guias acima para selecionar as informações a seguir</message>
 
@@ -1910,8 +1910,8 @@
     <message key="xmlui.statistics.title">Estatística</message>
     <message key="xmlui.statistics.search.title">Estatísticas de busca</message>
     <message key="xmlui.statistics.search.head">Estatísticas de busca</message>
-    <message key="xmlui.statistics.search.head-dso">Estatístiacs de busca para {0}</message>
-    <message key="xmlui.statistics.search.error">Ocorreu um erro enquanto gerava a estatística de busca, por favor, tento novamente mais tarde.</message>
+    <message key="xmlui.statistics.search.head-dso">Estatísticas de busca para {0}</message>
+    <message key="xmlui.statistics.search.error">Ocorreu um erro enquanto gerava a estatística de busca, por favor, tente novamente mais tarde.</message>
     <message key="xmlui.statistics.search.no-results">Nenhuma estatística de busca está disponível para o período selecionado.</message>
     <message key="xmlui.statistics.workflow.title">Estatísticas de fluxo de submissão</message>
     <message key="xmlui.statistics.visits.total">Total de visitas</message>
@@ -1928,7 +1928,7 @@
     <message key="xmlui.statistics.trail-search">Estatísticas de busca</message>
     <message key="xmlui.statistics.trail-workflow">Estatísticas de fluxo de submissão</message>
     <message key="xmlui.statistics.workflow.no-results">Nenhuma estatística de busca está disponível para o período selecionado.</message>
-    <message key="xmlui.statistics.workflow.error">Ocorreu um erro enquanto gerava a estatística de busca, por favor, tento novamente mais tarde.</message>
+    <message key="xmlui.statistics.workflow.error">Ocorreu um erro enquanto gerava a estatística de busca, por favor, tente novamente mais tarde.</message>
     <message key="xmlui.statistics.workflow.head">Estatísticas de fluxo de submissão</message>
     <message key="xmlui.statistics.workflow.head-dso">Estatísticas de fluxo de submissão para {0}</message>
 
